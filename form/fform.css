@@ -1,0 +1,64 @@
+div
+{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(29, 28, 28, 0.4),rgba(54, 53, 53, 0.246)),url(log.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+nav
+{
+    overflow: hidden;
+    width: 450px;
+    height:600px;
+    position: relative;
+    margin: 6% auto;
+    padding: 5px;
+    background: rgba(204, 204, 204, 0.568) ;
+}
+.input-field
+{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: larger;
+}
+h1
+{
+    text-align: center;
+}
+#BB
+{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.back{
+    border: none;
+    margin: 20px;
+    padding: 20px;
+    background-color:rgb(6, 170, 156); 
+    color: white;
+    border-radius: 30px;
+    font-size: 1.5rem;
+}
+.back:hover
+{
+    opacity: 0.5;
+    background-color: white;
+    color: teal;
+}

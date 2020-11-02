@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="log.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+              <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+              <button type="button" class="toggle-btn" onclick=signup()>Sign up</button>
+              
+            </div>
+            <form class="input-group" id="login">
+                <input type="text" class="input-field" placeholder="User id" required>
+                <input type="text" class="input-field" placeholder="Enter password" required>
+                <input type="checkbox" class="chech-box"><span>Remember Passsword</span>
+
+            <button type="submit" class="submit-btn"><a href="../j.html">Log In</a>
+            </button>
+            </form>
+            <form class="input-group" id="signup">
+                <input type="text" class="input-field" placeholder="User id" required>
+                <input type="text" class="input-field" placeholder="Email-id" required>
+                <input type="text" class="input-field" placeholder="Enter password" required>
+                <input type="checkbox" class="chech-box"><span>I Agree to the terms</span>
+
+            <button type="submit" class="submit-btn"><a href="../j.html">Sign up</a>
+            </button>
+            </form>
+        </div>   
+    </div>
+    <script>
+        var x=document.getElementById("login")
+        var y=document.getElementById("signup")
+        var z=document.getElementById("btn")
+   function signup(){
+   x.style.left="-400px";
+   y.style.left="50px";
+   z.style.left="110px";
+   }
+   function login(){
+   x.style.left="50px";
+   y.style.left="450px";
+   z.style.left="0px";
+   }
+    </script>
+</body>
+</html>

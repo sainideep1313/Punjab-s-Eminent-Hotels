@@ -1,0 +1,157 @@
+section:before
+{
+    content: '';
+    background: url('1.jpg') no-repeat center center/cover;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+section
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:rgba(251, 251, 251, 0.061) ;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+.wrapper:hover .dropdown-men
+{
+    display: block;
+}
+
+.wrapper
+{
+    margin: 7% ;
+    position: relative;
+    display: inline-block;
+}
+.jj
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.men-button
+{  display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 1% ;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+
+}
+.men-button:hover
+{
+   color:rgb(239, 255, 10);
+    background-color: white;
+}
+.dropdown-men
+{
+    background-color: white; 
+    display: none;
+    width: 300px;
+    color: linear-gradient(to right,#ff105f,#ffad06);
+
+    font-size: larger;
+    border-radius: 10px;
+    padding: 30px;
+    font-weight: bolder;
+    margin:1% auto;
+}
+
+a:hover
+{
+    color: white;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+
+}
+a
+{
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: larger;
+}
+.logo
+{
+    display: flex;
+}
+.loogoo
+{
+   
+    text-decoration: none;
+    color: aliceblue;
+    list-style: none;
+}
+#gj
+{
+    font-size: 40px ;
+    color: white;
+    font-style: oblique;
+    font-weight: bolder;
+    min-width: 400px;
+    border-radius: 5px;
+}
+@keyframes j
+{
+    0% {
+        
+        opacity: 1;
+        color: rgb(255, 0, 0);
+
+    }
+    50% {
+        
+        opacity: 2;
+        color: #fbff11ea;
+    }
+    75% {
+       
+        opacity: 1;
+        color: #0026ff;
+
+    }
+    100% {
+        
+        opacity: 2;
+        color: #04ff57;
+    }
+}
+.jg
+{
+    animation: j 2s reverse linear infinite;
+    text-shadow: #fbff00 -2px 1px ;
+}
+body
+{
+    background-color: black;
+}#foot
+{
+    height: 400px;
+}
+#gf
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#noe
+{
+    margin: 5% auto;
+}
+body{
+    background-color: black;
+    color: white;
+}
+a{
+    list-style: none;
+}

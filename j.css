@@ -1,0 +1,439 @@
+body
+{
+    margin: 0;
+    background: black;
+}
+#gj
+{
+    font-size: 40px ;
+    color: white;
+    font-style: oblique;
+    font-weight: bolder;
+    min-width: 400px;
+    border-radius: 5px;
+}
+@keyframes j
+{
+    0% {
+        
+        opacity: 1;
+        color: rgb(255, 0, 0);
+
+    }
+    50% {
+        
+        opacity: 2;
+        color: #fbff11ea;
+    }
+    75% {
+       
+        opacity: 1;
+        color: #0026ff;
+
+    }
+    100% {
+        
+        opacity: 2;
+        color: #04ff57;
+    }
+}
+.jg
+{
+    animation: j 2s reverse linear infinite;
+    text-shadow: #fbff00 -2px 1px ;
+}
+.g
+{  margin: 24% 0.5% auto;
+    font-size: 60px ;
+    text-shadow: 2px 1px 5px  rgb(255, 254, 254);
+    color: rgba(8, 0, 0, 0.842);
+}
+img
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    min-width: 100px;
+}
+#d
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+nav
+{
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0 3rem;
+    transition: all ease-in-out;
+}
+nav:before
+{
+    content: '';
+    background: url('11.jpg') no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+nav
+{
+    height: 100vh;
+    position: relative;
+}
+html
+{
+  scroll-behavior: smooth;
+}
+#d
+{
+    transform: translatey(-700px);
+    animation: text 1s forwards ease-in;
+}
+@keyframes text
+{
+    to
+    {
+        transform: translatey(0);
+    }
+}
+p
+{
+     text-shadow: 2px 1px 5px  black;
+    color: white;
+
+    font-size: 20px;
+}
+#k
+{
+    font-size: 050px;
+    font-weight: bolder;
+    text-shadow: 2px 1px 5px  black;
+    color: white;
+}
+#change:after
+{
+  content: " ";
+  animation: c 10s infinite linear;
+color: rgb(245, 7, 7);
+  text-shadow: none;
+}
+@keyframes c
+{
+    0%{
+        content: "Amritsar";
+    }
+    20%{
+        content: "Jalandhar";
+    }
+    30%{
+        content: "Ludhiana";
+    }
+    40%{
+        content: "Patiala";
+    }
+    50%{
+        content: "Chandigarh";
+    }
+    60%{
+        content: "Bathinda";
+    }
+    70%{
+        content: "Gurdaspur";
+    }
+    80%{
+        content: "Moga";
+    }
+    90%{
+        content: "Hoshiarpur";
+    }
+    100%{
+        content: "Kapurthla";
+    }
+}
+
+.footer
+{
+    height: 100px;
+    margin: 0.5% auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.container
+{
+    color: white;
+    margin: 0.5% auto;
+    border-radius: 20%;
+    min-width: 350px;
+    text-shadow: black -4px 10px 5px ;
+}
+
+
+
+.rotate
+{
+    animation: rotation 2s;
+}
+@keyframes rotation
+{
+    from{
+           transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) ;
+    }
+}
+
+.llll
+{
+    background: linear-gradient(to right,#ecfd03,#f8a705);
+    height: 600px;
+    margin: 1% 1% ;
+  text-align: center;
+}
+h3
+{
+
+    background-color: white;
+    margin: 5%  5% auto ;
+    text-align: center;
+    height: 100px;
+   border-radius: 50%;
+}
+.feedback
+{
+   height: 1000px;
+   background: linear-gradient(to right,#d44373,#cc9d3f);
+   margin: 0%  0% ;
+   background-image: url(bgh.jpg);
+
+}
+p
+{font-size: 2rem;
+    transform: translatex(-1500px);
+    animation: tex 1s forwards ease-in;
+}
+@keyframes tex
+{
+    to
+    {
+        transform: translatex(0);
+    }
+}
+#oo
+{
+    color:rgba(14, 15, 15, 0.938); ;
+}
+@keyframes jgg
+{
+    0% {
+        transform: scale(1,1);
+        opacity: 1;
+   color: rgb(172, 30, 5);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+        opacity: 2;
+        color: yellow;
+    }
+    75% {
+        transform: scale(1.2,1.2);
+        opacity: 3;
+color: rgb(247, 4, 4);
+    }
+    100% {
+        transform: scale(1,1);
+        opacity: 4;
+        color: rgb(0, 4, 255);
+    }
+}
+#oo
+{
+    animation: jgg 4s reverse linear infinite;
+}
+#ty
+{
+    height: 550px;
+    background: linear-gradient(to right,#ff0458,#ffab02);
+
+   margin-top: 0px  ;
+   text-align: center;
+   color: rgb(251, 251, 251);
+}
+input
+{
+    font-size: 1rem;
+    margin: 2% ;
+    color: crimson;
+    border-radius:30%;
+}h1
+{
+    text-align: center;
+    text-shadow: 2px 1px 5px  black;
+    color: white;
+   font-size: 3rem;
+}
+
+#lll
+{
+    display: flex;
+
+}
+#er
+{
+text-align: center;
+position: relative;
+height: 100vh;
+overflow: hidden;
+padding: 0 3rem;
+transition: all ease-in-out;
+}
+#er:before
+{
+content: '';
+background: url('download.jpg') no-repeat center center/cover;
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: -1;
+top: 0;
+left: 0;
+}
+#er
+{
+margin: 5%;
+background-color:rgba(10, 10, 10, 0.815) ;
+height: 100vh;
+position: relative;
+}
+#jjgg
+{
+ align-items: center;
+ justify-content: center;
+  display: flex;
+
+}
+h4
+{
+    text-align: center;
+    text-shadow: 2px 1px 5px  black;
+    color: white;
+    font-size: 1.5rem;
+}
+h5
+{
+    text-align: center;
+    text-shadow: 2px 1px 5px  black;
+    color: white;
+    font-size:0.8rem;
+}
+
+    #rr
+    {
+      font-size: 3rem;  
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0 3rem;
+    transition: all ease-in-out;
+    }
+    #rr:before
+    {
+    content: '';
+    background: url('lk.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    }   
+    #rr
+    {
+    margin: 5%;
+    background-color:rgba(240, 239, 239, 0.082) ;
+    height: 100vh;
+    position: relative;
+    }
+    #foo
+    {
+       height: 270px;
+       background: white;
+    }
+#foot
+{
+    height: 400px;
+}
+#gf
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#noe
+{
+    margin: 5% auto;
+}
+.deco
+{
+    text-decoration: none;
+    color: white;
+}
+.ccc
+{
+
+    padding: 20px;
+    color: rgb(240, 9, 9);
+    background-color: rgb(17, 1, 1);
+    border-radius: 10px;
+    border: none;
+}
+.ccc:hover{
+    background-color: rgb(252, 5, 5);
+    color: rgb(8, 0, 0);
+    border: none;
+    border-radius: 10px;
+}
+.logo
+{
+    display: flex;
+}
+.loogoo
+{
+   
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
